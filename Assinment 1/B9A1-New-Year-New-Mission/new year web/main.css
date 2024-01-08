@@ -1,0 +1,52 @@
+/* another way to fix the box managment still trying */
+.main{
+    margin:  0px 70px;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+}
+.banar{
+    position: absolute;
+    height: 640px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    z-index: 1;
+    color: aliceblue;
+    border: 5px solid yellow;
+}
+.banar::before{
+    position: relative;
+    justify-content: center;
+    content: '';
+    background: url('img/Banner\ Image.png') no-repeat center;
+    filter: brightness(50%);
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+}
+.banar p{
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 46px;
+    /* border: 5px solid yellow; */
+}
+.banar h1{
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 90px;
+    /* border: 5px solid yellow; */
+}
+.offer{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    border: 5px solid red;
+}
