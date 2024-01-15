@@ -7,7 +7,7 @@
     padding: 0px;
 }
 .main{
- margin:  0px 20px;
+ margin:  0px 345px;
  padding: 0px 40px;
  /* display: grid;
  justify-content: center; */
@@ -70,8 +70,8 @@
 
     position: absolute;
     left: -10px;
-    background: url('./Images/bannar.png') no-repeat center;
-    /* background-size: cover; */
+    background: url('./Images/bannar.png') no-repeat center center/cover;
+     /* background-size: cover; */
     height: 100%;
     margin-top: 10px;
     width: 100%;
