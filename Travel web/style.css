@@ -1,0 +1,147 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+:root{
+    --main-color: #FF5400;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+ margin:  0px 20px;
+ padding: 0px 40px;
+ /* display: grid;
+ justify-content: center; */
+}
+.color{
+    color: var(--main-color);
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding-right: 10px;
+}
+.barSide{
+    display: flex;
+    align-items: center;
+}
+.barSide ul{
+    display: flex;
+    /* align-items: center; */
+}
+.icon-bar{
+    display: none;
+}
+.barSide ul li{
+    list-style: none;
+}
+.barSide ul li a{
+    text-decoration: none;
+    padding: 15px;
+
+}
+.barSide ul li a:hover{
+    background: var(--main-color);
+    color: aliceblue;
+    border-radius: 10px;
+}
+.bannar {
+    /* border: 5px solid red; */
+    height: 500px;
+    width: 1120px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.bannar::before {
+    content: "";
+    display: block; /* Add this line */
+
+    position: absolute;
+    left: -10px;
+    background: url('./Images/bannar.png') no-repeat center;
+    /* background-size: cover; */
+    height: 100%;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    filter: brightness(50%);
+    z-index: -1;
+}
+.bannar  h1{
+    /* padding: 20px ; */
+    margin: 20px;
+    font-size: 48px;
+}
+.bannar p{
+color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+/* bannar section css I also use global element */
+.bannar-contener{
+    position: relative;
+}
+.down-arrow{
+    position: relative;
+    left: -26px;
+    /* height: 100px; */
+    /* width: auto; */
+    color: black;
+}
+.test{
+    border: 5px solid seagreen;
+}
+.tripInput{
+    padding: 10px ;
+    width: 80px;
+}
+.from-three{
+    position: relative;
+    left: -20px;
+}
+.from-search{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.30);
+    /* width: 800px; */
+    gap: 15px;
+}
+.find-btn{
+    position: relative;
+    left: -36px;
+    height: 40px;
+    width: 100px;
+    padding-right: 0px;
+    margin-right: 0px;
+    background: var(--main-color);
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.find-btn:hover{
+    cursor: pointer;
+     
+}
+.from-one{
+    padding-left: 20px;
+    margin-left: 10px;
+}
