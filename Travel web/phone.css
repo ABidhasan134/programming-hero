@@ -99,3 +99,27 @@ font-size: 12px;
     border: none;
     border-radius: 5px;
 }
+.popular{
+    display: grid;
+    padding: 1px 0px;
+}
+.discription{
+    padding: 5px 10px;
+}
+.discription h1{
+    font-size: 48px;
+}
+.subHeading{
+    font-size: 16px;
+    padding: 5px;
+    color: #5A5A5D;
+    /* color: antiquewhite; */
+}
+.popularBtn{
+    font-size: 20px;
+    padding: 10px;
+    background: var(--main-color);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}

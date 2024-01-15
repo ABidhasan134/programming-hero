@@ -105,9 +105,7 @@ line-height: 26px;
     /* width: auto; */
     color: black;
 }
-.test{
-    border: 5px solid seagreen;
-}
+
 .tripInput{
     padding: 10px ;
     width: 80px;
@@ -144,4 +142,44 @@ line-height: 26px;
 .from-one{
     padding-left: 20px;
     margin-left: 10px;
+}
+
+.popular{
+    border: 5px solid palegreen;
+}
+
+
+.test{
+    border: 5px solid seagreen;
+}
+.popular{
+    display: flex;
+    padding: 50px 30px;
+}
+.discription{
+    padding: 5px 30px;
+}
+.discription h1{
+    font-size: 48px;
+}
+.subHeading{
+    font-size: 20px;
+    padding: 10px;
+    color: #5A5A5D;
+    /* color: antiquewhite; */
+}
+.discription ul{
+    font-size: 16px;
+    color: #5A5A5D;
+}
+.discription ul li{
+    padding: 10px;
+}
+.popularBtn{
+    font-size: 20px;
+    padding: 10px;
+    background: var(--main-color);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
 }
