@@ -123,3 +123,428 @@ font-size: 12px;
     border: none;
     border-radius: 5px;
 }
+.destination{
+    /* border: 5px solid red; */
+    display: grid;
+    justify-content: center;
+}
+.destination-title{
+    /* display: grid;
+    justify-content: center; */
+    text-align: center;
+}
+
+.destination-title h1{
+    font-size: 48px;
+    padding: 20px;
+    /* color: #FF5400; */
+}
+.destination-title p{
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.row1{
+    display: grid;
+
+}
+.indonasia{
+    position: relative;
+    /* border: 5px solid green; */
+    padding: 10px;
+    width: 100%;
+}
+.maldivsImg{
+    position: relative;
+    left: 10px;
+}
+.indonasiaImg{
+    width: 95%;
+    padding: 0px;
+}
+.country-name{
+    position: absolute;
+    color: rgb(234, 237, 240);
+    left: 30%;
+    top: 30%;
+    font-size: 45px;
+}
+.maldivs{
+    position: relative;
+    display: flex;
+    top: 210px;
+    left: 200px;
+    /* background: #FF5400; */
+    z-index: 2;
+
+}
+.indonasia2{
+    position: relative;
+    /* border: 5px solid rgb(22, 79, 184); */
+    width: 100%;
+}
+.indonasiaImg2{
+    padding: 10px;
+    width: 93%;
+    height: 90%;
+    padding-right: 15px;
+    margin-right: 15px;
+}
+.country-name2{
+    position: absolute;
+    color: aliceblue;
+    left: 30%;
+    top: 40%;
+    font-size: 45px
+}
+.indonasia3{
+    position: relative;
+    /* border: 5px solid rgb(22, 79, 184); */
+    width: 100%;
+}
+.srilanka{
+    position: absolute;
+    top: 150px;
+    left: 230px;
+}
+.north
+{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+.kasmir{
+    position: absolute;
+    top: 210px;
+    left: 230px;
+}
+.indonasia4
+{
+    
+        position: relative;
+        /* border: 5px solid rgb(22, 79, 184); */
+        width: 100%;
+        padding: 5px;   
+}
+/* choose us area */
+.choos-us{
+    display: grid;
+    justify-content: center;
+}
+.titel{
+    display: grid;
+    justify-content: center;   
+    text-align: center;
+}
+.titel h1{
+    font-size: 48px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.titel p{
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.cardLind1{
+    display: grid;
+    /* border: 5px solid yellow; */
+}
+.card1{
+    border-radius: 16px;
+    /* border: 1px solid rgba(251, 181, 99, 0.20); */
+    background: rgba(251, 181, 99, 0.05);
+    padding: 5px;
+    margin: 10px;
+
+}
+.card2{
+    border-radius: 16px;
+    /* border: 1px solid rgba(41, 206, 246, 0.20); */
+    background: rgba(41, 206, 246, 0.05);
+    padding: 5px;
+    margin: 10px;
+}
+.iconFont{
+    font-size: 35px;
+}
+.cardHeading{
+    font-size: 48px;
+}
+.card3{
+    display: grid;
+    justify-content: center;
+    border-radius: 16px;
+    /* border: 1px solid rgba(233, 68, 68, 0.20); */
+    background: rgba(233, 68, 68, 0.05);
+    padding: 20px;
+    margin-bottom: 40px;
+
+}
+
+/* offer side css */
+.Offer1
+{
+    height: 1120px;
+    width: 600px;
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: end;
+    text-align: center;
+    /* justify-content: end; */
+    color: rgb(6, 6, 6);
+}
+.Offer1::before{
+    content: "";
+    display: block; /* Add this line */
+
+    position: absolute;
+    left: -10px;
+    background: url('./Images/offer1.png') no-repeat center center/cover;
+     /* background-size: cover; */
+    height: 100%;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.offer-contener{
+    position: relative;
+    display: grid;
+    bottom: 20px;
+    justify-content: center;
+    left: 40px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 10px;
+    }
+.offcerIcons{
+    display: flex;
+}
+.offerIcon{
+    color: #FF5400;
+    font-size: 30px;
+
+}
+.offerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5px;
+    margin-right: 10px;
+    top: -10px;
+    position: relative;
+}
+.offer-discription h1{
+    font-size: 35px;
+    padding: 10px;
+}
+.offer-subheading{
+    font-size: 16px;
+    padding: 5px;
+}
+.offerPrice{
+    font-size: 20px;
+    color: #FF5400;
+}
+.offerBtn{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    color:aliceblue;
+    background: #FF5400;
+    border: none;
+    border-radius: 5px;
+
+}
+/* offer 2  */
+.Offer2
+{
+    height: 1120px;
+    width: 600px;
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: end;
+    text-align: center;
+    /* justify-content: end; */
+    color: rgb(6, 6, 6);
+}
+.Offer2::before{
+    content: "";
+    display: block; /* Add this line */
+
+    position: absolute;
+    left: -10px;
+    background: url('./Images/offer2.png') no-repeat center center/cover;
+     /* background-size: cover; */
+    height: 100%;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    z-index: -1;
+}
+.srcVideo{
+    position: relative;
+    /* height: 500px; */
+    padding: 100px;
+    padding-left: 20px;
+    /* border-radius: 10px; */
+}
+/* newsletter */
+.newletter{
+    display: grid;
+    justify-content: space-between;
+}
+.linkSave
+{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: end;
+    text-align: center;
+    padding-right: 100px;
+    justify-content: end;
+    color: rgb(6, 6, 6);
+    margin: 20px 0px;
+}
+.linkSave::before{
+    content: "";
+    display: block; /* Add this line */
+
+    position: absolute;
+    left: -10px;
+    background: url('./Images/newlatter.png') no-repeat center center/cover;
+     /* background-size: cover; */
+    height: 100%;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    z-index: -1;
+}
+.SubFrom{
+    width: 50%;
+    padding-left: 100px;
+}
+.stiker{
+    background:#FF5400;
+    position: relative;
+    top: -65px;
+    right: -60px;
+    transform: rotate(-45deg);
+    padding: 10px;
+    border-radius: 10px;
+}
+.stiker h3{
+    font-size: 20px;
+
+}
+.stiker h1{
+    font-size: 35px;
+}
+
+
+.SubFrom{
+    padding-left: 10px;
+    display: grid;
+    align-items: center;
+    border: 2px solid #FF5400; ;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+.SubFrom h1{
+    font-size: 48px;
+    padding: 0px;
+}
+.SubFrom p{
+    padding: 0px;
+    margin: 0;
+    position: relative;
+    top: -20px;
+}
+.newletter-input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    height: 60px;
+    width: 400px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    position: relative;
+    /* top: -30px; */
+    padding-left: 30px;
+    margin: 50px;
+}
+.fix{
+    position: relative;
+    top: -60px;
+}
+.subBtn{
+    position: relative;
+    top: -70px;
+    color: aliceblue;
+    background: #FF5400;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    width: 445px;
+    left: 45px;
+}
+/* footer section */
+.footer{
+    display: grid;
+    justify-content: center;
+    background: rgba(90, 90, 94, 0.05);
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+}
+.logo2 h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+    
+}
+.color2{
+    color: #FF5400;
+    padding-left: 5px;
+    margin: 5px;
+}
+.logo2 img{
+    height: 40px;
+    width: 40px;
+}
+.footertext{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+    top: 0px;
+}
+.footerIcon{
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    margin: 40px 0px;
+    border-bottom: 2px solid gray;
+}
+.rigth{
+    display: flex;
+    justify-content: center;
+}
