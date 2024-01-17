@@ -289,6 +289,9 @@ line-height: 26px;
 }
 .indonasiaImg{
     position: relative;
+    /* width: 100%;
+    height: 100%; */
+    /* margin-left: 10px; */
     z-index: -1;
 }
 .maldivsRetext{
@@ -298,6 +301,10 @@ line-height: 26px;
 .maldivsRepro{
     position: relative;
     top: -40px;
+}
+.bandorban{
+    position: relative;
+    left: 10px;
 }
 /* choos us area */
 .choos-us{
@@ -538,6 +545,7 @@ line-height: 26px;
 .stiker h1{
     font-size: 45px;
 }
+/* News letter */
 .SubFrom{
     padding: 10px;
     display: grid;
@@ -545,6 +553,7 @@ line-height: 26px;
     /* gap: -210px; */
     border: 2px solid #FF5400;
     border-radius: 5px;
+    margin: 25px 50px;
 }
 .SubFrom h1{
     font-size: 48px;
