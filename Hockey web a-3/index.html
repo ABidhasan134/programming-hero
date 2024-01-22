@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<!-- font awasome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- daisy UI -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    .font-manrope{
+        font-family: 'Manrope', sans-serif;
+    }
+   
+</style>
+</head>
+
+<body class="font-manrope">
+    <header class="container mx-auto p-3">
+        <!-- navbar contener -->
+        <nav class="pt-6">
+            <div class="navbar bg-base-100">
+                <!-- mobile navbar -->
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <!-- small navbar -->
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a class="hover:bg-transparent hover:text-[#FF4240]">Home</a></li>
+                        <li><a class="hover:bg-transparent hover:text-[#FF4240]">About</a></li>
+                        <li><a class="hover:bg-transparent hover:text-[#FF4240]">Pages</a></li>
+                        <li><a class="hover:bg-transparent hover:text-[#FF4240]">Blog</a></li>
+                        <li><a class="hover:bg-transparent hover:text-[#FF4240]">Contact</a></li>
+                    </ul>
+                  </div>
+                  <a href="#" class="lg:text-4xl font-extrabold">Hockey <span class="text-[#FF4240]">’</span>s</a>
+                </div>
+                <!-- large navbar -->
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 ">
+                    <li><a class="hover:bg-transparent text-[16px] hover:text-[#FF4240]">Home</a></li>
+                    <li><a class="hover:bg-transparent text-[16px] hover:text-[#FF4240]">About</a></li>
+                    <li><a class="hover:bg-transparent text-[16px] hover:text-[#FF4240]">Pages</a></li>
+                    <li><a class="hover:bg-transparent text-[16px] hover:text-[#FF4240]">Blog</a></li>
+                    <li><a class="hover:bg-transparent text-[16px] hover:text-[#FF4240]">Contact</a></li>
+                  </ul>
+                </div>
+                <!-- nav btn section -->
+                <div class="navbar-end lg:px-6 lg:py-4 ">
+                    <i class="fa-solid fa-magnifying-glass pr-6"></i>
+                  <a class="btn bg-[#FF4240] text-white hover:bg-[#FF4240] lg:text-2xl">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+        <!-- bannar section -->
+        <div class="relative grid gap-3 mx-2">
+            
+            <div class="carousel w-full lg:h-[550px] lg:w-[98%]">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img class="lg:w-full " src="./Images/1.png" alt="">
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❮</a> 
+                    <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img class="w-full" src="./Images/2.png" alt="">
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❮</a> 
+                    <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❯</a>
+                  </div>
+                </div>
+            </div>
+            <!-- popup section -->
+            <div class="bg-black text-white p-8 rounded-lg lg:absolute lg:right-14 lg:bottom-11 ">
+                <h1 class="text-2xl font-bold mb-4">Meet all the heroes from the field</h1>
+                <p class="text-[14px] lg:text-[16px] text-[#FFFFFF99]">Unveiling Extraordinary Individuals:A Glimpse into <br>
+                     the Lives of Heroes Making a Difference in Various Fields.</p>
+            </div>
+           <!-- <div class="flex lg:justify-end  lg:-top-64 lg:right-16">
+            
+           </div> -->
+        </div>
+    </header>
+    <main class="container mx-auto p-3">
+        <!-- line -->
+        <div class="line ">
+            <p >-line 2</p>
+        </div>
+        <!-- hockey listin  -->
+        
+        <section class="grid justify-center pt-8">         
+            <!-- text -->
+            <div class="text-center ">
+                
+                <h1 class=" text-2xl lg:text-4xl font-extrabold">Professional Hockeys Club</h1>
+                <p class="text-[#13131899] py-5">Professional Hockey Clubs are elite teams comprising skilled players <br>
+                    competing at the highest level of ice hockey. These clubs participate in premier leagues worldwide, showcasing top-tier talent and contributing to the sport's rich legacy
+                </p>
+            </div>
+        </section>
+        <!-- line -->
+         <!-- line -->
+         <div class="line ">
+            <p >-line 2</p>
+        </div>
+        <!-- chart section -->
+        <section class="mb-10">
+            <!-- chart area -->
+            <div class="grid lg:grid-cols-4 place-content-center pt-10 lg:pt-10">
+                <!-- chart 1 -->
+                <div class=" text-center p-10">
+                    <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
+                    <h1 class="lg:text-3xl font-semibold py-3">Prayer Facility</h1>
+                    <p class="text-[#13131899]">Providing a Sacred Space for Players to Seek Solace and Focus, Enhancing Mental Resilience on the Ice</p>
+                </div>
+                <!-- chart 2 -->
+                <div class="text-center p-4 ">
+                    <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+                    <h1 class="lg:text-3xl font-semibold py-3">Experienced Coach</h1>
+                    <p class="text-[#13131899]">Seasoned hockey coach with extensive experience, shaping players' skills and fostering strategic prowess on the rink for optimal team performance.</p>
+                </div>
+        
+                <!-- chart 3 -->
+                <div class="text-center p-4 ">
+                    <div class="radial-progress text-[#FFB546]" style="--value:70;" role="progressbar">70%</div>
+                    <h1 class="lg:text-3xl font-semibold py-3">Senior Player</h1>
+                    <p class="text-[#13131899]">Distinguished senior hockey player, exemplifying leadership and skill with a wealth of experience, contributing to team success on the ice</p>
+                </div>
+                <!-- chart 4 -->
+                <div class="text-center p-4 ">
+                    <div class="radial-progress text-[#4C8DF1]" style="--value:70;" role="progressbar">70%</div>
+                    <h1 class="lg:text-3xl font-semibold py-3">Training Ground</h1>
+                    <p class="text-[#13131899]">Training Ground: The Crucible where Aspiring Athletes Forge Skills and Resilience, Shaping the Champions of Tomorrow.</p>
+                </div>
+            </div>
+        </section>
+        <!-- line -->
+        <div class="line ">
+            <p >-line 2</p>
+        </div>
+        <!-- program text  -->
+        <section class="grid justify-center pt-8">         
+            <!-- text -->
+            <div class="text-center ">
+                
+                <h1 class=" text-2xl lg:text-4xl font-extrabold">Program Sections</h1>
+                <p class="text-[#13131899] py-5">Organized segments fostering skill development,<br>
+                     strategic training, and team cohesion for a comprehensive player experience.
+                </p>
+            </div>
+        </section>
+        <!-- line -->
+        <div class="line ">
+            <p >-line 2</p>
+        </div>
+        <!-- program card -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-3 mb-20">
+            <!-- img 1 -->
+            <div class="hero min-h-screen relative rounded-3xl " style="background-image: url(./Images/2.png);">
+                <div class="hero-overlay bg-opacity-30 rounded-3xl "></div>
+                <div class="hero-content text-neutral-content lg:absolute lg:bottom-0 lg:left-0">
+                  <div class="p-4">
+                    <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                    <p class="mb-5 text-[16px] leading-[22px]">Tailored initiatives nurturing young talents, providing skill development, and fostering a <br>
+                        love for the sport, laying the foundation for future champions.</p>
+                    <button class="btn bg-[#FF4240] border-none text-white text-2xl hover:bg-transparent">Register Now!</button>
+                  </div>
+                </div>
+              </div>
+                 <!-- img 2 -->
+                 <div class="hero min-h-screen relative rounded-3xl" style="background-image: url(./Images/3.png);">
+                    <div class="hero-overlay bg-opacity-30 rounded-3xl"></div>
+                    <div class="hero-content text-neutral-content lg:absolute lg:bottom-0 lg:left-0">
+                      <div class="p-4">
+                        <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+                        <p class="mb-5 text-[16px] leading-[22px]">Teenager Program in Hockey: Guiding the adolescent players with advanced training, strategic development,<br>
+                             and mentorship to harness their potential and excel in the competitive realm of the sport.</p>
+                        <button class="btn bg-[#FF4240] border-none text-white text-2xl hover:bg-transparent">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- img 3 -->
+                  <div class="hero min-h-screen relative rounded-3xl lg:col-span-2" style="background-image: url(./Images/4.png);">
+                    <div class="hero-overlay bg-opacity-30 rounded-3xl"></div>
+                    <div class="hero-content text-neutral-content lg:absolute lg:bottom-0 lg:left-0">
+                      <div class=" p-4">
+                        <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
+                        <p class="mb-5 text-[16px] leading-[22px]">Elevating elite athletes through specialized <br>
+                             training, strategic refinement, and comprehensive support, shaping them into top-tier players at the pinnacle of their careers. <br>
+                             Exemplary Professional Program: Tailored for hockey's finest, integrating advanced <br>
+                             training methodologies and personalized development plans to forge champions on the professional stage.</p>
+                        <button class="btn bg-[#FF4240] border-none text-white text-2xl hover:bg-transparent">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+        </section>
+        <!-- line  -->
+        <div class="line ">
+            <p >-line 2</p>
+        </div>
+        <!-- New product text -->
+        <section class="grid justify-center p-11 pt-8">         
+            <!-- text -->
+            <div class="text-center ">
+                
+                <h1 class=" text-3xl lg:text-4xl font-extrabold">Our New Products</h1>
+                <p class="text-[#13131899] text-[16px] py-5">Introducing our latest products, a testament to innovation and quality.<br> From cutting-edge technology 
+                     to sleek design, each item is crafted to elevate your experience. <br>
+                     Explore the epitome of style and functionality with our new collection. Unveil a world of possibilities as we redefine excellence in every detail.
+                </p>
+            </div>
+        </section>
+         <!-- line  -->
+         <div class="line ">
+            <p >-line 2</p>
+        </div>
+
+        <!-- product img list -->
+        <section>
+            <div>
+                <img src="./Images/5" alt="">
+                <div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
