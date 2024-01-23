@@ -28,3 +28,24 @@
     border-bottom: 2px solid rgb(2, 129, 179);
     
 }
+.line1{
+    position: relative;
+    height: 20px;
+    border-bottom: 2px solid #13131833;
+    margin: 10px;
+
+}
+.line1 p{
+    display: none;
+}
+.line1:hover p{
+    display: inline;
+    cursor: pointer;
+    color: skyblue;
+}
+.line1:hover{
+    /* background: rgb(104, 147, 246); */
+    /* color: aqua; */
+    border-bottom: 2px solid rgb(2, 129, 179);
+    
+}
