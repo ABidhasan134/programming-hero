@@ -160,7 +160,7 @@
             </div>
         </section>
         <!-- line -->
-        <div class="line ">
+        <div class="line mb-12">
             <p >-line 2</p>
         </div>
         <!-- program card -->
@@ -571,24 +571,24 @@
     </div>
 
     <!-- get into touch contener -->
-    <section>
+    <section class="lg:flex grid justify-center gap-20">
       <!-- contact -->
-      <div class="grid gap-4 lg:p-12 justify-center lg:justify-start border-2 border-[#629CF319] py-8 rounded-lg">
-        <div class="card w-96 bg-base-100  grid justify-start p-5 bg-[#BCED6D19] rounded-none">
+      <div class="grid gap-4 p-12 justify-center w-full  lg:w-[40%]  border-2 border-[#629CF319] py-8 rounded-lg">
+        <div class="card w-96 bg-base-100  grid justify-start pt-5 bg-[#BCED6D19] rounded-none">
           <img class="pl-12" src="./Images/phone.png" alt="">
           <div class="card-body">
             <p class="text-gray-400">phone number</p>
             <h2 class="card-title">+8801711111111</h2>
           </div>
         </div>
-        <div class="card w-96 bg-base-100  grid justify-start p-5 bg-[#BCED6D19]">
+        <div class="card w-96 bg-base-100  grid justify-start pt-5 bg-[#BCED6D19]">
           <img class="pl-12" src="./Images/mail.png" alt="">
           <div class="card-body">
             <p class="text-gray-400">Email</p>
             <h2 class="card-title">Hockey123@gmail.com</h2>
           </div>
         </div>
-        <div class="card w-96 bg-base-100  grid justify-start p-5 bg-[#629CF319]">
+        <div class="card w-96 bg-base-100  grid justify-start pt-5 bg-[#629CF319]">
           <img class="pl-12" src="./Images/location.png" alt="">
           <div class="card-body">
             <p class="text-gray-400">Location</p>
@@ -597,51 +597,111 @@
         </div>
       </div>
       <!-- input section -->
-      <div class="grid grid-cols-2">
-        <label class="form-control w-full max-w-xs">
+      <div class="grid grid-cols-1 lg:w-[60%]  gap-2 grid-flow-row-dense lg:grid-cols-2 justify-center relative">
+        <!-- name  -->
+        <label class="form-control lg:mb-0 lg:p-0  w-[100%] lg:relative lg:top-4">
           <div class="label">
             <span class="label-text text-2xl font-bold">Your Name</span>
           
           </div>
-          <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+          <input type="text" placeholder="Enter your name" class="input  bg-[#F8F8F8] input-bordered lg:w-[100%] w-full " />
         </label>
+        
         <!-- email name -->
        
-          <label class="form-control w-full max-w-xs">
+          <label class="form-control lg:w-full w-[100%] lg:relative lg:top-4">
             <div class="label">
-              <span class="label-text text-2xl font-bold">Your Name</span>
+              <span class="label-text text-2xl font-bold">Your Email</span>
             
             </div>
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+            <input type="text" placeholder="Enter your email" class="input  bg-[#F8F8F8] input-bordered w-full lg:w-[100%]" />
           </label>
           <!-- subject name -->
-          <label class="form-control w-full max-w-xs">
+          <label class="form-control lg:w-full w-[100%] ">
             <div class="label">
-              <span class="label-text text-2xl font-bold">Your Name</span>
+              <span class="label-text text-2xl font-bold">Subject</span>
             
             </div>
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+            <input type="text" placeholder="Enter your subject" class="input bg-[#F8F8F8] input-bordered w-full lg:w-[100%]" />
           </label>
           <!-- phone number -->
-          <label class="form-control w-full max-w-xs">
+          <label class="form-control lg:w-full w-[100%] ">
             <div class="label">
-              <span class="label-text text-2xl font-bold">Your Name</span>
+              <span class="label-text text-2xl font-bold">Phone Number</span>
             
             </div>
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+            <input type="text" placeholder="Enter your phone Number" class="input  bg-[#F8F8F8] input-bordered w-full lg:w[100%]" />
           </label>
           <!-- massage -->
-          <div>
-            <input type="text" name="" id="" placeholder="massage" class="border-2 col-span-2">
-
+          <div class="lg:col-span-2 ">
+            <div class="label">
+              <span class="label-text text-2xl font-bold">message</span>
+            </div>
+            <textarea placeholder="Write your message" class="textarea  bg-[#F8F8F8] textarea-bordered textarea-lg w-full h-[300px]" ></textarea>
+          <button class="btn w-full mt-11 bg-[#FF4240] hover:bg-[#FF4240] text-white font-semibold">Send Message</button>
           </div>
+          <!-- buttom -->
+          
       </div>
 
     </section>
+    
+    <!-- midea section -->
+    <section class="mt-14 px-16 lg:px-0">
+        <div class="grid justify-center bg-[#F8F8F8] rounded-xl">
+          <h1 class="text-2xl font-bold pt-10">Social Media</h1>
+          <div class="flex gap-2 justify-center text-2xl py-10">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+        </div>
+    </section>
 
     </main>
-    <footer>
-
+    <!-- footer section -->
+    <footer class="lg:footer p-10 bg-black text-white mt-12 lg:flex grid justify-center  lg:gap-48">
+      <!-- get into touch  -->
+      <aside class="grid justify-center text-center lg:text-start">
+        <h1 class="text-3xl font-bold ">Get into touch</h1>
+        <p class=" text-gray-400">Feel free to reach out via email at YourEmail@example.com <br>
+          or give us a call at 01711111111. We look <br>
+           forward to connecting with you!</p>
+        <div class="flex gap-3 items-center justify-center lg:justify-start">
+          <i class="fa-regular fa-envelope text-[#FF4240]"></i>
+          <p class="text-gray-500">hockeys@support.com</p>
+        </div>
+        <div class="flex gap-3 items-center justify-center lg:justify-start">
+          <i class="fa-solid fa-phone text-[#FF4240]"></i>
+          <p class="text-gray-500">(+62) 123-321-543</p>
+        </div>
+      </aside> 
+     <div class="flex  lg:justify-between justify-center gap-10 lg:p-0 my-10 lg:gap-48 lg:relative lg:-top-10">
+      <nav class="grid text-center lg:text-start">
+        <h1 class="text-white text-2xl pb-2">Company</h1>
+        <a class="link link-hover text-gray-400">About us</a>
+        <a class="link link-hover text-gray-400">Leadership</a>
+        <a class="link link-hover text-gray-400">Careers</a>
+        <a class="link link-hover text-gray-400">News & Article</a>
+        <a class="link link-hover text-gray-400">Legal Notice</a>
+      </nav> 
+      <nav class="grid text-center lg:text-start">
+        <h1 class="text-white text-2xl pb-2">Support</h1>
+        <a class="link link-hover text-gray-400">Help Center</a>
+        <a class="link link-hover text-gray-400">FAQ</a>
+        <a class="link link-hover text-gray-400">Ticket Support</a>
+        <a class="link link-hover text-gray-400">Contact Us</a>
+      </nav> 
+     </div>
+      <nav class="grid justify-center text-center lg:text-start">
+        <h1 class="text-white text-2xl pb-2">Services</h1>
+        <a class="link link-hover text-gray-400">Academy</a>
+        <a class="link link-hover text-gray-400">Group Lesson</a>
+        <a class="link link-hover text-gray-400">Private Lesson</a>
+        <a class="link link-hover text-gray-400">Hockeys for kids</a>
+        <a class="link link-hover text-gray-400">Hockeys for Adult</a>
+      </nav>
     </footer>
 </body>
 </html>
