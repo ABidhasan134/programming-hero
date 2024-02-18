@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking web</title>
+    <!-- font awasome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- daisy UI -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="./style.css">
+<style>
+    .font-manrope{
+        font-family: 'Manrope', sans-serif;
+    }
+   
+</style>
+</head>
+<body class="font-manrope">
+    <header class="container mx-auto p-3 ">
+        <!-- navbar contener -->
+        <nav class="pt-6">
+            <div class="navbar bg-base-100">
+                <!-- mobile navbar -->
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <!-- small navbar -->
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a class="hover:bg-transparent hover:text-[#1DD100]">About</a></li>
+                        <li><a class="hover:bg-transparent hover:text-[#1DD100]">Pages</a></li>
+                        <li><a class="hover:bg-transparent hover:text-[#1DD100]">Home</a></li>
+                        <li><a class="hover:bg-transparent hover:text-[#1DD100]">Blog</a></li>
+                        <li><a class="hover:bg-transparent hover:text-[#1DD100]">Contact</a></li>
+                    </ul>
+                  </div>
+                  <a href="#" class="lg:text-4xl font-extrabold">E-trickt <span class="text-[#1DD100]">’</span>s</a>
+                </div>
+                <!-- large navbar -->
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 ">
+                    <li><a class="hover:bg-transparent text-[16px] hover:text-[#1DD100]">Home</a></li>
+                    <li><a class="hover:bg-transparent text-[16px] hover:text-[#1DD100]">About</a></li>
+                    <li><a class="hover:bg-transparent text-[16px] hover:text-[#1DD100]">Pages</a></li>
+                    <li><a class="hover:bg-transparent text-[16px] hover:text-[#1DD100]">Blog</a></li>
+                    <li><a class="hover:bg-transparent text-[16px] hover:text-[#1DD100]">Contact</a></li>
+                  </ul>
+                </div>
+                <!-- nav btn section -->
+                <div class="navbar-end lg:px-6 lg:py-4 ">
+                    
+                  <a class="btn bg-[#1DD100] text-white 
+                  hover:bg-[#355e32] lg:text-2xl">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    Bus</a>
+                </div>
+              </div>
+        </nav>
+        <!-- bannar section -->
+        <div class="relative grid gap-3 mx-2">
+            
+            <div class="hero min-h-screen rounded-xl" style="background-image: url(./images/banner.png);">
+
+                <div class="hero-overlay bg-opacity-10"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Travel with <span class="text-[#1DD100] font-bold">WithOut Paribahan</span></h1>
+                    <p class="mb-5">Explore without limits with WithOut Paribahan - your passport to seamless journeys, unbounded adventures.</p>
+                    <button class="btn btn-primary bg-[#1DD100] text-black border-none hover:text-white hover:bg-[#355e32]">Buy Trickt
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- popup section -->
+            <div class=" p-8 flex gap-4 w-full justify-center flex-1 
+            rounded-lg lg:absolute lg:-bottom-28">
+                <!-- popup 1 -->
+                <div class="bg-white text-black border-2 gap-2
+                border-[#1DD100] p-8 rounded-lg flex justify-center items-center">
+                    <i class="fa-solid fa-users text-[#1DD100] text-5xl"></i>
+                    <div class="p-3">
+                        <h1 class="text-4xl font-bold mb-1">500K</h1>
+                    <p class="text-[14px] lg:text-[16px]">Register User</p>
+                    </div>
+                </div>
+                <!-- popup 2 -->
+                <div class="bg-white text-black border-2 gap-2
+                border-[#1DD100] p-8 rounded-lg flex justify-center items-center">
+                    <i class="fa-solid fa-users text-[#1DD100] text-5xl"></i>
+                    <div class="p-3">
+                        <h1 class="text-4xl font-bold mb-1">500K</h1>
+                    <p class="text-[14px] lg:text-[16px]">Register User</p>
+                    </div>
+                </div>
+                <!-- popup 1 -->
+                <div class="bg-white text-black border-2 gap-2
+                border-[#1DD100] p-8 rounded-lg flex justify-center items-center">
+                    <i class="fa-solid fa-users text-[#1DD100] text-5xl"></i>
+                    <div class="p-3">
+                        <h1 class="text-4xl font-bold mb-1">500K</h1>
+                    <p class="text-[14px] lg:text-[16px]">Register User</p>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto p-3 m-0 py-0">
+        <div class="relative top-20 text-5xl font-extrabold flex justify-center">
+            <p>Best Offer for you</p>
+        </div>
+        <!-- copupon cards -->
+        <div class="container1 gap-5 ">
+            <!-- coupon card 1 -->
+            <div class="coupon-card">
+                <div>
+                    <h3 class="text-5xl font-semibold">15% off</h3>
+                    <p class="opacity-60">on your next purchase</p>
+                    <p class="opacity-60">use by January 2024</p>
+                </div>
+                <div>
+                    <h1 class="text-5xl font-semibold">NEW15</h1>
+                    <p class="opacity-60">coupon code</p>
+                </div>
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+            </div>
+            <!-- cupon card 2 -->
+            <div class="coupon-card bg-[#F78C9C]">
+                <div>
+                    <h3 class="text-5xl font-semibold">20% OFF</h3>
+                    <p class="opacity-60">on your next purchase</p>
+                    <p class="opacity-60">use by January 2024</p>
+                </div>
+                <div>
+                    <h1 class="text-5xl font-semibold">couple 20</h1>
+                    <p class="opacity-60">coupon code</p>
+                </div>
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+            </div>
+        </div>
+        <!-- scroll btn -->
+        <div class="
+        relative flex justify-center ">
+            <button class="btn bg-transparent border-2 border-green-400 hover:bg-transparent mb-5">See All offer</button>
+        </div>
+        <!-- poribahan -->
+        <section class="bg-[#F7F8F8] mt-8 mb-32 pb-8 rounded-[40px] border-t-2 border-t-[#1DD100]">
+            <!-- text -->
+            <div>
+                <div class="text-center ">
+                
+                    <h1 class=" text-2xl lg:text-4xl font-extrabold">WithOut Paribahan</h1>
+                    <p class="text-[#13131899] py-5">Explore without limits with WithOut Paribahan - your passport to seamless journeys, unbounded adventures.</p>
+                </div>
+            </div>
+            <!-- info -->
+            <div class="bg-[#F7F8F8]">
+                <div class="coupon-card bg-white m-5">
+                    <!-- left side -->
+                    <div class="border-2 m-5 border-bg-gray-500 w-full">
+                        <!-- headding -->
+                        <div class="flex justify-between ">
+                            <div class="flex gap-10 flex-1">
+                                <img src="./images/bus-logo.png" alt="">
+                            <div class="text-start ">
+                                <h1 class="text-3xl flex font-bold">green Line Proribahan</h1>
+                                <p>Coach-009-WEB ! AC_Business</p>
+                            </div>
+                            </div>
+                            <button class="flex"><img src="./images/seat-green-filled.png" alt=""><span>40 sit ablable</span></button>
+                            <!--  -->
+                        </div>
+                        <!-- time sudule -->
+                        <div class="bg-[#F7F8F8] mt-3 p-5 gap-2 grid rounded-xl">
+                            <div class="flex justify-between">
+                                <p>Route</p>
+                                <p>Dhaka-Sylhet</p>
+                            </div>
+                            <!-- line -->
+                            <div class="line ">
+                            </div>
+
+                            <div class="flex justify-between">
+                                <p>Route</p>
+                                <p>Dhaka-Sylhet</p>
+                            </div>
+                            <!-- line -->
+                            <div class="line ">
+                            </div>
+
+                            <div class="flex justify-evenly gap-3">
+                                <button class="btn">Bording point -Laxmiput</button>
+                                
+                                <button class="btn">Droping point -Bogura</button>
+                                <button class="btn"> Est- Time 11h</button>
+                            </div>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="flex items-center ">
+                        <figure class="absolute right-48 -top-1">
+                            <img  src="./images/info-devider.png" alt="">
+                        </figure>
+                        <div  class="grid justify-center">
+                            <img  class="text-center flex justify-center" src="./images/fare.png" alt="">
+                            <h1 class="text-5xl font-semibold">NEW15</h1>
+                            <p class="opacity-60">coupon code</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- sit -->
+            <div class="border-2 border-red-500 relative flex justify-evenly
+            p-5 bg-white m-10 rounded-lg">
+
+                <!-- sit number -->
+                <section class="grid flex-1">
+                    <h1 class="text-4xl font-semibold">Select your sit</h1>
+                    <div class="flex justify-between">
+                        <button class="btn bg-transparent hover:bg-transparent border-none"><img src="./images/seat-gray.png" alt="">Abaliable</button>
+                        <button class="btn bg-transparent hover:bg-transparent border-none"><img src="./images/seat-green-filled.png" alt="">selected</button>
+                    </div>
+                    <div class="flex justify-end">
+                        <button class="btn bg-transparent hover:bg-transparent border-gray-400 rounded-[50%]"><i class="fa-solid fa-user"></i></button>
+                    </div>
+                    <!-- sits -->
+                    <div class=" flex justify-between">
+                        <!-- 3 coloum  -->
+                        <div class="flex">
+                            <ol>
+                                <li><button class="btn bg-transparent hover:bg-transparent
+                                    text-2xl opacity-50 border-none m-2 flex-nowrap">A</button></li>
+                                <li><button class="btn bg-transparent hover:bg-transparent
+                                    text-2xl opacity-50 border-none m-2 flex-nowrap">B</button></li>
+                                <li><button class="btn bg-transparent hover:bg-transparent
+                                    text-2xl opacity-50 border-none m-2 flex-nowrap">C</button></li>
+                            </ol>
+                            <ol>
+                                <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">A1</button></li>
+                                <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">B1</button></li>
+                                <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">C1</button></li>
+                            </ol>
+                            <ol>
+                                <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">A2</button></li>
+                                <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">B2</button></li>
+                                <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">C2</button></li>
+                            </ol>
+                        </div>
+                        <!-- last 2 colum -->
+                        <div>
+                            <div class="flex">
+                                <ol>
+                                    <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">B3</button></li>
+                                    <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">A3</button></li>
+                                    <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">C3</button></li>
+                                </ol>
+                                <ol>
+                                    <li><button class="btn text-3xl p-4 m-2 flex-nowrap bg-[#F7F8F8]">A4</button></li>
+                                    <li><button class="btn text-3xl p-4 m-2 flex-nowrap bg-[#F7F8F8]">B4</button></li>
+                                    <li><button class="btn text-3xl p-4 m-2 flex-nowrap bg-[#F7F8F8]">C4</button></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- vartical line -->
+                <div class="border-r-2 border-dashed p-5 h-auto w-1">
+                </div>
+
+
+
+                <!-- from section -->
+                <section class=" grid flex-1 pl-3 m-4">
+                    <h1 class="text-4xl ">Select your sit</h1>
+                    <!-- line -->
+                    <div class="line ">
+                    </div>
+                    <!-- calculat area -->
+                    <div class="grid">
+                            <div class="flex justify-between">
+                                <div class="indicator">
+                                    <p>seat</p>
+                                    <span class="indicator-item indicator-middle indicator-start badge badge-secondary
+                                    left-14 top-3 bg-green-400 border-none">0</span>
+                                    
+                                </div>
+                                <p> class</p>
+                                <p>price</p>
+                            </div>
+                            <!-- booked seat -->
+                            <div class="flex justify-between">
+                                <p>A1</p>
+                                <p> Econamic</p>
+                                <p> 550</p>
+                            </div>
+                            <div class="line1 p-0 w-[100%] "></div>
+                            <!-- total price -->
+                            <div class="flex justify-between mb-12">
+                                <p>Total</p>
+                                <p>BDT <span>000</span></p>
+                            </div>
+                            <!-- copun number -->
+                            <div>
+                                <label class="input input-bordered flex items-center gap-2">
+                                <input type="text" class="grow" placeholder="Search" />
+                                <button class="btn min-h-2 h-[40px] bg-green-400 relative -right-2">Apply</button>
+                              </label>
+                            </div>
+                            <!-- Grand total -->
+                            <div class="flex justify-between my-12">
+                                <p>Grand Total</p>
+                                <p>BDT <span>000</span></p>
+                            </div>
+                            <!-- from fill -->
+                            <div class=" grid gap-2">
+                                <!-- input 1 -->
+                                <label class="form-control lg:w-full w-[100%] lg:relative lg:top-4">
+                                    <div class="label">
+                                      <span class="label-text text-2xl font-bold">Pasanger Name*</span>
+                                    
+                                    </div>
+                                    <input type="text" placeholder="Enter your Name" class="input  bg-[#F8F8F8] input-bordered w-full lg:w-[100%]" />
+                                  </label>
+                                  <!-- input 2 -->
+                                  <label class="form-control lg:w-full w-[100%] lg:relative lg:top-4">
+                                    <div class="label">
+                                      <span class="label-text text-2xl font-bold">Phone Number*</span>
+                                    
+                                    </div>
+                                    <input type="text" placeholder="Enter your phon Number" class="input  bg-[#F8F8F8] input-bordered w-full lg:w-[100%]" />
+                                  </label>
+                                  <!-- input 3 -->
+                                  <label class="form-control lg:w-full w-[100%] lg:relative lg:top-4">
+                                    <div class="label">
+                                      <span class="label-text text-2xl font-bold">Email ID</span>
+                                    </div>
+                                    <input type="text" placeholder="Enter your email" class="input  bg-[#F8F8F8] input-bordered w-full lg:w-[100%]" />
+                                  </label>
+
+                                  <button class="btn w-full mt-5 hover:bg-green-500">Next</button>
+                            </div>
+                            <!-- tearms and condition -->
+                            <div class="flex justify-between opacity-50 mt-5">
+                                <p class="underline underline-offset-1">Tearms and condition</p>
+                                <p class="underline underline-offset-1">pollicy</p>
+                            </div>
+                            <!-- finish here -->
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
