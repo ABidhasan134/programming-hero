@@ -73,8 +73,10 @@
                   <div class="max-w-md">
                     <h1 class="mb-5 text-5xl font-bold">Travel with <span class="text-[#1DD100] font-bold">WithOut Paribahan</span></h1>
                     <p class="mb-5">Explore without limits with WithOut Paribahan - your passport to seamless journeys, unbounded adventures.</p>
-                    <button class="btn btn-primary bg-[#1DD100] text-black border-none hover:text-white hover:bg-[#355e32]">Buy Trickt
-                    </button>
+                    <a href="#Info">
+                        <button id="scrollBtn" class="btn btn-primary bg-[#1DD100] text-black border-none hover:text-white hover:bg-[#355e32]">Buy Trickt
+                        </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -154,7 +156,7 @@
             <button class="btn bg-transparent border-2 border-green-400 hover:bg-transparent mb-5">See All offer</button>
         </div>
         <!-- poribahan -->
-        <section class="bg-[#F7F8F8] mt-8 mb-32 pb-8 rounded-[40px] border-t-2 border-t-[#1DD100]">
+        <section id="Info" class="bg-[#F7F8F8] mt-8 mb-32 pb-8 rounded-[40px] border-t-2 border-t-[#1DD100]">
             <!-- text -->
             <div>
                 <div class="text-center ">
@@ -164,7 +166,7 @@
                 </div>
             </div>
             <!-- info -->
-            <div class="bg-[#F7F8F8]">
+            <div  class="bg-[#F7F8F8]">
                 <div class="coupon-card bg-white m-5">
                     <!-- left side -->
                     <div class="border-2 m-5 border-bg-gray-500 w-full">
@@ -177,7 +179,7 @@
                                 <p>Coach-009-WEB ! AC_Business</p>
                             </div>
                             </div>
-                            <button class="flex"><img src="./images/seat-green-filled.png" alt=""><span>40 sit ablable</span></button>
+                            <button class="flex"><img src="./images/seat-green-filled.png" alt=""><span id="ablableSet">12</span>sit ablable</button>
                             <!--  -->
                         </div>
                         <!-- time sudule -->
@@ -250,28 +252,28 @@
                                     text-2xl opacity-50 border-none m-2 flex-nowrap">C</button></li>
                             </ol>
                             <ol>
-                                <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">A1</button></li>
-                                <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">B1</button></li>
-                                <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">C1</button></li>
+                                <li><button id="A1" class="booked btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">A1</button></li>
+                                <li><button id="B1" class="booked btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">B1</button></li>
+                                <li><button id="C1" class="booked btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">C1</button></li>
                             </ol>
                             <ol>
-                                <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">A2</button></li>
-                                <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">B2</button></li>
-                                <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">C2</button></li>
+                                <li><button id="A2" class="booked btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">A2</button></li>
+                                <li><button id="B2" class="booked btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">B2</button></li>
+                                <li><button id="C2" class="booked btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">C2</button></li>
                             </ol>
                         </div>
                         <!-- last 2 colum -->
                         <div>
                             <div class="flex">
                                 <ol>
-                                    <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">B3</button></li>
-                                    <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">A3</button></li>
-                                    <li><button class="btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">C3</button></li>
+                                    <li><button id="A3" class="booked btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">B3</button></li>
+                                    <li><button id="B3" class="booked btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">A3</button></li>
+                                    <li><button id="C3" class="booked btn text-3xl  p-4 text-center flex-nowrap m-2 bg-[#F7F8F8]">C3</button></li>
                                 </ol>
                                 <ol>
-                                    <li><button class="btn text-3xl p-4 m-2 flex-nowrap bg-[#F7F8F8]">A4</button></li>
-                                    <li><button class="btn text-3xl p-4 m-2 flex-nowrap bg-[#F7F8F8]">B4</button></li>
-                                    <li><button class="btn text-3xl p-4 m-2 flex-nowrap bg-[#F7F8F8]">C4</button></li>
+                                    <li><button id="A4" class="booked btn text-3xl p-4 m-2 text-center flex-nowrap bg-[#F7F8F8]">A4</button></li>
+                                    <li><button id="B4" class="booked btn text-3xl p-4 m-2 text-center flex-nowrap bg-[#F7F8F8]">B4</button></li>
+                                    <li><button id="C4" class="booked btn text-3xl p-4 m-2 text-center flex-nowrap bg-[#F7F8F8]">C4</button></li>
                                 </ol>
                             </div>
                         </div>
@@ -294,19 +296,21 @@
                             <div class="flex justify-between">
                                 <div class="indicator">
                                     <p>seat</p>
-                                    <span class="indicator-item indicator-middle indicator-start badge badge-secondary
-                                    left-14 top-3 bg-green-400 border-none">0</span>
+                                    <span  class="indicator-item indicator-middle indicator-start badge badge-secondary
+                                    left-14 top-3 bg-green-400 border-none"><span id="yourSeat">0</span></span>
                                     
                                 </div>
                                 <p> class</p>
                                 <p>price</p>
                             </div>
                             <!-- booked seat -->
-                            <div class="flex justify-between">
-                                <p>A1</p>
-                                <p> Econamic</p>
-                                <p> 550</p>
-                            </div>
+                            <div id="showSeat" class="flex justify-between">
+                                </div>
+                                
+                            <!-- test -->
+                            <!-- text finish -->
+
+
                             <div class="line1 p-0 w-[100%] "></div>
                             <!-- total price -->
                             <div class="flex justify-between mb-12">
@@ -364,5 +368,6 @@
             </div>
         </section>
     </main>
+    <script src="./script.js"></script>
 </body>
 </html>
